@@ -25,7 +25,7 @@ public class MoveGridViewActivity extends Activity {
         for (int i = 0; i < 10; i++) {
             HashMap<String, Object> map = new HashMap<String, Object>();
             map.put("ItemText", "NO." + String.valueOf(i));// 按序号做ItemText
-            lstImageItem.add(map);
+            lstImageItem.add(map);//
         }
         final SimpleAdapter saImageItems = new SimpleAdapter(this,
                 lstImageItem,// 数据来源
